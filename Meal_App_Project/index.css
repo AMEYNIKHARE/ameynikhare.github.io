@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url("https://wallpapercave.com/wp/wp4289147.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#full-body {
+    z-index: 2;
+}
+
+/* header heading section */
+#heading-container {
+    margin-top: 10%;
+}
+
+#heading {
+    font-family: sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* header navbar */
+#nav,
+.offcanvas-header {
+    background-color: #fe243a;
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 50%;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+
+/* meal card */
+.card {
+    background-color: rgb(254, 36, 58, 0.75);
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 5px 1px greenyellow;
+}
+
+.fav-card {
+    background-color: #fe243a;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card img,
+.fav-card img {
+    border-radius: 50%;
+}
+
+
+/* meal details container */
+
+#myMealDetails {
+    /* border: 3px solid white; */
+    /* border-radius: 25px; */
+    color: white;
+    margin-left: 5%;
+    width: 90%;
+    height: 90vh;
+    position: fixed;
+    top: 11%;
+    z-index: 5;
+    overflow: scroll;
+    display: none;
+}
+
+#myMealDetails::-webkit-scrollbar {
+    display: none;
+}
+
+#meal-details {
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 2%;
+    background-color: rgb(254, 36, 58);
+}
+
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+.purple {
+    background-color: white;
+    color: red;
+}
+
+.close-details {
+    position: relative;
+    left: 95%;
+    color: white;
+    font-size: 2rem;
+}
+
+#mealDetails {
+    /* border: 3px solid white; */
+    border-radius: 25px;
+    color: white;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+    position: fixed;
+    top: 11%;
+    z-index: 5;
+    display: none;
+}
